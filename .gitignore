@@ -1,0 +1,42 @@
+﻿# Build directories
+**/build/
+**/Objects/
+**/Listings/
+**/bin/
+**/obj/
+**/out/
+
+# EIDE generated CMSIS cache
+**/.cmsis/
+
+# Keil/EIDE target output directory
+MDK-ARM/Alice_st7789/
+
+# Compiler-generated files
+*.o
+*.obj
+*.d
+*.dep
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.i
+*.crf
+*.lnp
+
+# Personal configuration
+*.uvguix.*
+*.bak
+*.tmp
+
+# EIDE local files
+**/.eide/log/
+**/.eide.usr.ctx.json
+*.ept
+*.eide-template
+
+# VS Code local debugger configuration
+.vscode/launch.json
